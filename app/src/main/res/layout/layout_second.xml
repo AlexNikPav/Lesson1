@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:background="#F1F1F1"
+        android:ems="10"
+        android:padding="10dp"
+        android:inputType="text"
+        android:text="text" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:background="#F1F1F1"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:text="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:background="#F1F1F1"
+        android:ems="10"
+        android:inputType="phone"
+        android:padding="10dp"
+        android:text="phone" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:background="#F1F1F1"
+        android:ems="10"
+        android:inputType="number"
+        android:padding="10dp"
+        android:text="number" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:background="#F1F1F1"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:text="textPassword" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:background="#F1F1F1"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:text="textEmailAddress" />
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp" />
+</LinearLayout>

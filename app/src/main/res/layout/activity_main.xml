@@ -27,10 +27,24 @@
         android:fontFamily="cursive"
         android:hint="Enter your name"
         android:inputType="textPersonName"
-        android:maxLength="50"
+        android:maxLength="30"
         android:padding="10dp"
         android:textSize="42sp"
         android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:fontFamily="cursive"
+        android:hint="Enter your password"
+        android:inputType="textPassword"
+        android:maxLength="50"
+        android:padding="10dp"
+        android:textSize="42sp" />
 
     <Button
         android:layout_width="wrap_content"
